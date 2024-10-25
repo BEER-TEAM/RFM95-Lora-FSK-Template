@@ -50,8 +50,6 @@ To install this project on your Raspberry Pi, follow these steps:
 
 ## Usage
 
-TODO - make main.py
-
 TODO - add usage instructions (highlight variables in main file)
 
 ```python
