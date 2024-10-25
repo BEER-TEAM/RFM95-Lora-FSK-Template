@@ -21,7 +21,7 @@ To install this project on your Raspberry Pi, follow these steps:
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/yourusername/RFM95-Lora-FSK-Template.git
+    git clone https://github.com/BEER-TEAM/RFM95-Lora-FSK-Template.git
     cd RFM95-Lora-FSK-Template
     ```
 
