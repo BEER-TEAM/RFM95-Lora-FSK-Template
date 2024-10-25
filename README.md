@@ -50,10 +50,10 @@ To install this project on your Raspberry Pi, follow these steps:
 
 ## Usage
 
-TODO - add usage instructions (highlight variables in main file)
+Modify main.py file according to your needs and run the software with:
 
-```python
-
+```sh
+python3 main.py
 ```
 
 ## Requirements
