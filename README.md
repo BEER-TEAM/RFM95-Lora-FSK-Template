@@ -36,11 +36,6 @@ To install this project on your Raspberry Pi, follow these steps:
     sudo apt-get install python3
     ```
 
-3. **Install the required Python packages**:
-    ```sh
-    pip3 install -r requirements.txt
-    ```
-
 4. **Connect your RF module**:
 
     Make sure to connect your RF module to the Raspberry Pi as follows:
