@@ -140,7 +140,7 @@ class RadioHandler:
             self._send_fsk(message)
         elif self.mode == RadioMode.LORA:
             self._send_lora(message)
-
+        sleep(0.1)
         self.start_rx()  # Start receiving data after sending
 
     def _send_fsk(self, message):
