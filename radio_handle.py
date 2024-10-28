@@ -75,7 +75,7 @@ class RadioHandler:
                 payload_len=radio_defines.FSK_PAYLOAD_LEN
             )
             self.fsk_handler.on_recv = self.handle_received_data
-            # self.fsk_handler.SX1276SetRx_fsk()  # Start receiving in FSK mode
+            self.fsk_handler.SX1276SetRx_fsk()  # Start receiving in FSK mode
 
         elif self.mode == RadioMode.LORA:
             # Initialize LoRa transceiver using macros from radio_defines and set acks to False
@@ -93,7 +93,7 @@ class RadioHandler:
             )
 
             self.lora_handler.on_recv = self.handle_received_data  # Set callback for received data
-            # self.lora_handler.set_mode_rx()  # Start in receive mode
+            self.lora_handler.set_mode_rx()  # Start in receive mode
 
         else:
             raise ValueError("Invalid mode. Please choose 'fsk' or 'lora'.")
@@ -141,7 +141,7 @@ class RadioHandler:
         elif self.mode == RadioMode.LORA:
             self._send_lora(message)
 
-        #self.start_rx()  # Start receiving data after sending
+        self.start_rx()  # Start receiving data after sending
 
     def _send_fsk(self, message):
         """Send a message using FSK mode."""

@@ -4,8 +4,8 @@ from radio_handle import *
 
 # Some defines
 # To fully customize the radio settings, you can change the values in radio_defines.py
-RADIO_MODE = RadioMode.LORA # Set the radio mode to LoRa. Change to RadioMode.FSK for FSK mode.
-SEND_DELAY = 2  # Delay [s] between sending messages
+RADIO_MODE = RadioMode.LORA # Set the radio modulation: RadioMode.LORA or RadioMode.FSK
+SEND_DELAY = 5  # Delay [s] between sending messages
 SEND_MSG = "Hello!"  # Message to send
 SEND_MESSAGES = True  # Set to False to only receive messages
 

@@ -344,9 +344,9 @@ class LoRa(object):
                
             if packet_len >= 4:
                 header_to = packet[0]
-                print(f'header_to: {header_to}')
+                # print(f'header_to: {header_to}')
                 header_from = packet[1]
-                print(f'header_from: {header_from}')
+                # print(f'header_from: {header_from}')
                 header_id = packet[2]
                 header_flags = packet[3]
                 message = bytes(packet[4:]) if packet_len > 4 else b''
