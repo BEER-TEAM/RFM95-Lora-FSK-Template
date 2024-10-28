@@ -44,8 +44,9 @@ To install this project on your Raspberry Pi, follow these steps:
 4. **Connect your RF module**:
 
     Make sure to connect your RF module to the Raspberry Pi as follows:
-   
-    ![462551593_1099644291793191_4015406996148201914_n](https://github.com/user-attachments/assets/e6436a19-be00-4c16-a0ee-e50048611e3e)
+![380674785-970074c6-fee1-4666-a7c3-4374f292859c](https://github.com/user-attachments/assets/51f4adcf-dc5b-438c-a5d7-f2d7136b79fd)
+![380675023-b1be9c1f-1ffb-4e3c-b1d6-8d63ceecb1ec](https://github.com/user-attachments/assets/326a92bd-7021-41b4-931b-6490143e124c)
+![462551593_1099644291793191_4015406996148201914_n](https://github.com/user-attachments/assets/e6436a19-be00-4c16-a0ee-e50048611e3e)
 
 
 ## Usage
